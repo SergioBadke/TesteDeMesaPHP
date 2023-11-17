@@ -1,0 +1,24 @@
+<?php
+
+$seteMaravilhas=[
+    "Cristo Redentor",
+    "Chichén Itzá",
+    "Coliseu",
+    "Muralha da China",
+    "Petra",
+    "Machu Pichu",
+    "Taj Mahal"
+];
+
+for($i=0;$i<7;$i++){
+    print($i+1 . ":" . $seteMaravilhas[$i] . "\n");
+}
+
+//php index.php
+#1:Cristo Redentor
+#2:Chichén Itzá
+#3:Coliseu
+#4:Muralha da China
+#5:Petra
+#6:Machu Pichu
+#7:Taj Mahal
