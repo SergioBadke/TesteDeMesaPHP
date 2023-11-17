@@ -4,3 +4,6 @@ $numeros=[1,22,33]
 for($i=0;$i<3;$i++){
 print($numeros[$i]."-")
 }
+
+\\php index.php
+#1-22-33-
