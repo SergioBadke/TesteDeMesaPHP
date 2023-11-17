@@ -1,0 +1,19 @@
+<?php
+
+$megaSena=[33,4,47,7,11,25];
+$aux=0;
+
+for($i=0;$i<6;$i++){
+    for($j=0;$j<6;$j++){
+    
+        if($megaSena[$j]>$megaSena[$j]+1){
+            $aux=$megaSena[$j];
+            $megaSena[$j]=$megaSena[$j]+1;
+            $megaSena[$j+1]=$aux;
+        }
+    }
+}
+
+for($i=0;$i<6;$i++){
+    print($megaSena[$i]."-");
+}
