@@ -1,0 +1,24 @@
+<?php
+
+$seteMaravilhas=[
+    "Cristo Redentor",
+    "Chichén Itzá",
+    "Coliseu",
+    "Muralha da China",
+    "Petra",
+    "Machu Pichu",
+    "Taj Mahal"
+];
+
+$valorBuscado="Coliseu";
+
+for($i=0;$i<7;$i++){
+
+    if($seteMaravilhas[$i]==$valorBuscado){
+        print("Valor buscado esta entre as maravilhas");
+    }
+}
+
+//php index.php
+#Valor buscado esta entre as maravilhas
+
